@@ -6,7 +6,7 @@ public class Main {
 		int a = sc.nextInt();
 
         if(a % 3 == 0) {
-            System.out.println("YED");
+            System.out.println("YES");
         } else {
             System.out.println("NO");
         }
