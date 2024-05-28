@@ -5,25 +5,25 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt(), d = sc.nextInt(), e = sc.nextInt();
 
-        if(a >= b) {
+        if(a > b) {
             System.out.println(1);
         } else {
             System.out.println(0);
         }
 
-        if(a >= c) {
+        if(a > c) {
             System.out.println(1);
         } else {
             System.out.println(0);
         }
         
-        if(a >= d) {
+        if(a > d) {
             System.out.println(1);
         } else {
             System.out.println(0);
         }
 
-        if(a >= e) {
+        if(a > e) {
             System.out.println(1);
         } else {
             System.out.println(0);
