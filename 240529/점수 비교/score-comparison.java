@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 		int aMath = sc.nextInt(), aEng = sc.nextInt(), bMath = sc.nextInt(), bEng = sc.nextInt();
 
-        if(aMath >= bMath && aEng >= bEng) {
+        if(aMath > bMath && aEng > bEng) {
             System.out.println(1);
         } else {
             System.out.println(0);
