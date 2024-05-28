@@ -6,7 +6,7 @@ public class Main {
         int aMath = sc.nextInt(), aEng = sc.nextInt();
         int bMath = sc.nextInt(), bEng = sc.nextInt();
 
-        if(aMath >= bMath && aEng > bEng) {
+        if((aMath >= bMath && aEng > bEng) || (aMath >= bMath && aEng < bEng)) {
             System.out.println("A");
         } else {
             System.out.println("B");
