@@ -22,7 +22,7 @@ public class Main {
             if(i >= 10) {
             	if(i % 3 == 0) {
                 	System.out.print("0 ");
-                } else if(str[1].equals("3") || str[1].equals("6") || str[1].equals("9")) {
+                } else if(str[0].equals("3") || str[0].equals("6") || str[0].equals("9") || str[1].equals("3") || str[1].equals("6") || str[1].equals("9")) {
             		System.out.print("0 ");            		
             	} else {
             		System.out.print(i + " ");            		
